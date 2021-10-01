@@ -4,22 +4,22 @@ const Search = ({getQuery}) => {
     const[text,setText] =useState('')
 
 
-    const onChange=(q) =>{
-        setText(q)
-        getQuery(q)
+    const onChange=(e) =>{
+        e.preventDefault()
+        const event =e.target.value
+        setText(event)
+        getQuery(event)
     }
 
-    
+
     return (
         <section className='search'>
-            <form>
                 <input type='text' className='form-control' 
                 placeholder='Search characters'
                 value={text}
-                onChange={(e) =>onChange(e.target.value)}
+                onChange={(e) =>onChange(e)}
                 autoFocus     
-                />
-            </form>      
+                />    
         </section>
     )
 }
