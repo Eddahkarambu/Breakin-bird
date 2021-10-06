@@ -2,7 +2,7 @@
 Eddah Karambu
 
 # Description
-Breaking bad is an Ame5ican neo-Western crime drama television series created by Vince Giligan
+Breaking bad is an American neo-Western crime drama television series created by Vince Giligan
 
 # Website Url
 https://breakin-bud.herokuapp.com/
