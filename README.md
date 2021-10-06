@@ -1,3 +1,14 @@
+# Author
+Eddah Karambu
+
+# Description
+Breaking bad is an Ame5ican neo-Western crime drama television series created by Vince Giligan
+
+# Website Url
+https://breakin-bud.herokuapp.com/
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
